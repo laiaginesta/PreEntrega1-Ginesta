@@ -1,9 +1,10 @@
 import './App.css'
+import {useState} from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
-
+import {Item} from './components/Item/Item'
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
