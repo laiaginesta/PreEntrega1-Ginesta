@@ -1,22 +1,22 @@
-
-#root {
-  /*max-width: 1280px;*/
+/*#root {
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+}*/
 
+/* usar position absolute  */
 .logo {
   height: 6em;
-  padding: 1.5em;
+  /*padding: 1.5em;*/
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 0.2em black);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 0.2em black);
 }
 
 @keyframes logo-spin {
@@ -39,19 +39,55 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: black;
 }
 
-.btn{
-  margin-left: 10px;
+img{
+ 
+  height: 20rem;
+  
+ 
 }
 
-.btn:hover{
-font-weight: 700;
+.ItemImg{
+  justify-content: center;
 }
 
-h1{
- padding-top: 10%;
+.cart-widget{
+  height: 20rem;
+  position: absolute;
+  right: 8%;
+  top: 12rem;
+  
+}
+
+.CardItem{
+  display: flex;
+  border-radius: 80px;
+  justify-content: center;
+  flex-direction: column;
+  background-color:rgb(254, 212, 173);
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 23rem;
+  align-items: center;
+}
+
+h2{
+  color: black;
+}
+
+p{
+  color: black;
+}
+.Controls{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 10px;
 }
 
 
